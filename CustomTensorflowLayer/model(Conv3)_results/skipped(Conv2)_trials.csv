@@ -1,0 +1,36 @@
+Trial,Use Custom Layer,Num Custom Layers,Num Filters,Regularization Factor,Epochs,Batch Size,Learning Rate,Error Message
+231,False,10,32,0.1,10,128,0.001,"Graph execution error:
+
+Detected at node Adam/truediv_37 defined at (most recent call last):
+  File ""/Users/zaynahmed/Desktop/NYU/Personal Projects/CustomvsDensePrograms/ConvolutionalTests.py"", line 166, in <module>
+
+  File ""/Users/zaynahmed/Desktop/Personal Projects/lib/python3.10/site-packages/keras/src/utils/traceback_utils.py"", line 65, in error_handler
+
+  File ""/Users/zaynahmed/Desktop/Personal Projects/lib/python3.10/site-packages/keras/src/engine/training.py"", line 1807, in fit
+
+  File ""/Users/zaynahmed/Desktop/Personal Projects/lib/python3.10/site-packages/keras/src/engine/training.py"", line 1401, in train_function
+
+  File ""/Users/zaynahmed/Desktop/Personal Projects/lib/python3.10/site-packages/keras/src/engine/training.py"", line 1384, in step_function
+
+  File ""/Users/zaynahmed/Desktop/Personal Projects/lib/python3.10/site-packages/keras/src/engine/training.py"", line 1373, in run_step
+
+  File ""/Users/zaynahmed/Desktop/Personal Projects/lib/python3.10/site-packages/keras/src/engine/training.py"", line 1154, in train_step
+
+  File ""/Users/zaynahmed/Desktop/Personal Projects/lib/python3.10/site-packages/keras/src/optimizers/optimizer.py"", line 544, in minimize
+
+  File ""/Users/zaynahmed/Desktop/Personal Projects/lib/python3.10/site-packages/keras/src/optimizers/optimizer.py"", line 1223, in apply_gradients
+
+  File ""/Users/zaynahmed/Desktop/Personal Projects/lib/python3.10/site-packages/keras/src/optimizers/optimizer.py"", line 652, in apply_gradients
+
+  File ""/Users/zaynahmed/Desktop/Personal Projects/lib/python3.10/site-packages/keras/src/optimizers/optimizer.py"", line 1253, in _internal_apply_gradients
+
+  File ""/Users/zaynahmed/Desktop/Personal Projects/lib/python3.10/site-packages/keras/src/optimizers/optimizer.py"", line 1345, in _distributed_apply_gradients_fn
+
+  File ""/Users/zaynahmed/Desktop/Personal Projects/lib/python3.10/site-packages/keras/src/optimizers/optimizer.py"", line 1342, in apply_grad_to_update_var
+
+  File ""/Users/zaynahmed/Desktop/Personal Projects/lib/python3.10/site-packages/keras/src/optimizers/optimizer.py"", line 241, in _update_step
+
+  File ""/Users/zaynahmed/Desktop/Personal Projects/lib/python3.10/site-packages/keras/src/optimizers/adam.py"", line 204, in update_step
+
+Incompatible shapes: [32,32] vs. [0]
+	 [[{{node Adam/truediv_37}}]] [Op:__inference_train_function_10593641]"
